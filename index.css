@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-size: 16px; /* Set a base font size for the body */
+  }
+  
+  p {
+    font-size: 1em; /* 1em is equal to 16px in this case */
+  }
+  
+  h1 {
+    font-size: 2em; /* 2em is equal to 32px (16px * 2) */
+  }
+  
+  /* Or using rem for a more consistent scaling across the entire document */
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    font-size: 1rem; /* 1rem is equal to 16px */
+  }
+  
+  p {
+    font-size: 1.2rem; /* 1.2rem is equal to 19.2px (16px * 1.2) */
+  }
+  
+  h1 {
+    font-size: 2rem; /* 2rem is equal to 32px (16px * 2) */
+  }
+.title{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+}
+
+.title img{
+    width: 100px;
+}
+
+#scholname{
+    text-align: center;
+    background-color: white;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   font-weight: bold;
+   font-size: 5em;
+   font-stretch: expanded;
+   color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    text-transform: capitalize;
+}
+.button{
+    text-transform: uppercase;
+    font-size: 1em; /* Adjust the font size as needed */
+    padding: 10px 20px; /* Adjust padding for desired button size */
+    margin: 5px; /* Optional margin between buttons */
+    color:white;
+background-color:black;
+}
+.body{
+width: 100%;
+}
+
+.body img{
+    width: 100%;
+}
+    
